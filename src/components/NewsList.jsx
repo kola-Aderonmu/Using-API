@@ -55,9 +55,13 @@ function NewsList({ category }) {
 
   // Loading spinner
   // **************************************************
-  //   if (loading) {
-  //     return <div className="spinner"></div>;
-  //   }
+    if (loading) {
+      return (
+        <div className="flex items-center justify-center h-screen">
+          <div className="spinner"></div>
+        </div>
+      );
+    }
 
   // ****************************************************
 
