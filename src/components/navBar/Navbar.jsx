@@ -15,13 +15,13 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="">
+      <div className="sticky top-0 left-0 right-0 z-30">
         <img
           src="https://th.bing.com/th/id/OIP.ueZStPHsNz0KztztxH9oagAAAA?rs=1&pid=ImgDetMain"
           alt="News-logo"
           className="w-20 rounded-2xl absolute left-20 mt-2"
         />
-        <nav className="p-4 md: flex-grow flex-wrap bg-red-400 rounded-lg sticky top-0 max-w-[900px] mx-auto">
+        <nav className="p-4 md: flex-grow flex-wrap bg-red-400 rounded-lg  max-w-[900px] mx-auto">
           {/* <div className="container mx-auto flex justify-between items-center"> */}
           <div className="flex items-center justify-center space-x-4 text-white">
             {links.map((item, index) => (
